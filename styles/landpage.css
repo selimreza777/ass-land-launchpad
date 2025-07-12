@@ -1,13 +1,6 @@
-/* google font */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-.fon-ter .font-one {
-  font-family: "Inter", sans-serif;
-  font-weight: 800;
-  font-size: 25px;
-}
 
-.fon-ter .font-two {
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
+/* nav style */
+nav{
+  display: flex;
 }
