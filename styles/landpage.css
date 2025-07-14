@@ -4,7 +4,7 @@
   font-style: normal;
 }
 
-/* shared coler style */
+/* shared color style */
 .btn-primary {
   background-color: #4E47FF;
   font-weight: 700;
@@ -59,7 +59,7 @@ nav ul li {
   text-align: center;
 }
 
-/* header backgroun */
+/* header background */
 
 .banner-bg {
   height: 100vh;
@@ -133,7 +133,6 @@ main {
 .product-user {
   border-radius: 24px;
   padding: 50px 80px;
-  /* padding: 130px 150px ; */
   text-align: center;
   margin-top: 116px;
 }
@@ -141,7 +140,75 @@ main {
 .user-item {
   display: flex;
   justify-content: space-between;
-  /* text-align: justify; */
 
+}
 
+/* challenge section-> what our user say section */
+.user-content {
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.user-content header h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 42px;
+  color: #252432;
+}
+
+.review-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+.review-card {
+  background: #fff;
+  width: 300px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.10);
+  text-align: left
+}
+
+.review-card h3 {
+  color: #1E1E1E;
+  opacity: 100%;
+}
+
+.review-card p {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.reviewer-img img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.reviewer-img strong {
+  width: 266.67px;
+  height: 22px;
+  font-weight: 300;
+  font-size: 15px;
+  display: block;
+
+}
+
+.reviewer-img time {
+  font-weight: 500;
+  font-size: 14px;
+  color: #B3B3B3;
+}
+
+.reviewer-img {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.reviewer-info {
+  margin-left: 10px;
 }
