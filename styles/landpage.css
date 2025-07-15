@@ -110,6 +110,7 @@ nav ul li {
   background-color: rgba(78, 71, 255, 0.11);
 }
 
+
 .common-blu {
   color: #4E47FF;
   font-weight: 800;
@@ -211,4 +212,41 @@ main {
 
 .reviewer-info {
   margin-left: 10px;
+}
+
+/* section-->Ready to focus better */
+.focus-info {
+  max-width: 1140px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-bottom: 71px;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.10);
+  text-align: center;
+}
+
+.focus-title {
+  font-size: 50px;
+  font-weight: bold;
+  color: #000000;
+  padding-top: 71px;
+  margin-bottom: 20px;
+}
+
+.focus-sub-title {
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.btn-free-style {
+  margin-bottom: 20px;
+}
+
+.focus-img-style {
+  width: 840px;
+  height: 364.77px;
+  border-radius: 48px;
 }
