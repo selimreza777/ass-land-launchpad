@@ -108,6 +108,7 @@ nav ul li {
 
 .secondary-bg {
   background-color: rgba(78, 71, 255, 0.11);
+
 }
 
 
@@ -249,4 +250,79 @@ main {
   width: 840px;
   height: 364.77px;
   border-radius: 48px;
+}
+
+/* Lets get in Touch segment */
+
+.touch-contuct {
+  /* max-width: 1140px; */
+
+  padding: 60px 60px;
+  background-color: #f6f8fe;
+  /* border-top: 20px; */
+  /* padding-top: 20px; */
+  margin-top: 30px;
+  /* gap: 50px; */
+  border-radius: 5px;
+}
+
+.container-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.contuct-title h1 {
+  font-weight: bold;
+  font-size: 75px;
+  /* width: 528px;
+  height: 528px; */
+  /* padding-left: 0; */
+  /* padding-right: 50px; */
+  /* border-right:50px; */
+  /* margin-left: 20px; */
+
+  color: #000000;
+  /* gap: 20px; */
+}
+
+.form-container {
+  display: table-cell;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* gap: 19px; */
+  /* gap: px; */
+  /* margin: 20px 32px; */
+  /* padding-right: 80px; */
+  /* width: 50%; */
+}
+
+.form-container {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  gap: 22px;
+}
+
+.form-container input[type="text"],
+[type="Email"],
+textarea {
+  height: 70px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  display: block;
+  width: 80%;
+  padding-left: 32px;
+  border: none;
+  font-size: 17px;
+}
+
+.btn-touch {
+  width: 300px;
+  height: 43px;
 }
