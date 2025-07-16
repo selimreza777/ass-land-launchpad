@@ -255,15 +255,12 @@ main {
 /* Lets get in Touch segment */
 
 .touch-contuct {
-  /* max-width: 1140px; */
-
+  max-width: 1140px;
   padding: 60px 60px;
   background-color: #f6f8fe;
-  /* border-top: 20px; */
-  /* padding-top: 20px; */
   margin-top: 30px;
-  /* gap: 50px; */
   border-radius: 5px;
+
 }
 
 .container-box {
@@ -279,15 +276,8 @@ main {
 .contuct-title h1 {
   font-weight: bold;
   font-size: 75px;
-  /* width: 528px;
-  height: 528px; */
-  /* padding-left: 0; */
-  /* padding-right: 50px; */
-  /* border-right:50px; */
-  /* margin-left: 20px; */
-
+  margin: 125px 60px;
   color: #000000;
-  /* gap: 20px; */
 }
 
 .form-container {
@@ -325,4 +315,11 @@ textarea {
 .btn-touch {
   width: 300px;
   height: 43px;
+}
+
+/* footer segment */
+.footer-segment {
+  width: 1440px;
+  height: 428px;
+  background-color: #FFFFFF;
 }
