@@ -1,11 +1,14 @@
 .inter-normal {
+
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
 
 /* shared color style */
+
 .btn-primary {
+
   background-color: #4E47FF;
   font-weight: 700;
   font-size: 16px;
@@ -18,20 +21,24 @@
 }
 
 .banner-content {
+
   text-align: center;
 }
 
 /* nav style */
+
 nav {
   display: flex;
 }
 
 nav ul {
+
   display: flex;
   align-items: center;
 }
 
 .nav-title {
+
   font-weight: 900;
   font-size: 25px;
   color: #4E47FF;
@@ -41,6 +48,7 @@ nav ul {
 }
 
 nav ul li {
+
   list-style: none;
 }
 
@@ -54,6 +62,7 @@ nav ul li {
 }
 
 .title-one {
+
   font-weight: bold;
   font-size: 65px;
   text-align: center;
@@ -62,6 +71,7 @@ nav ul li {
 /* header background */
 
 .banner-bg {
+
   height: 100vh;
   padding: 0 5%;
   background-size: cover;
@@ -69,17 +79,21 @@ nav ul li {
 }
 
 /* see it action part*/
+
 .title-two {
+
   font-weight: bold;
   font-size: 45px;
 }
 
 .sub-title-two {
+
   font-weight: 100;
   font-size: 24px;
 }
 
 .title-action {
+
   font-weight: bold;
   font-size: 42px;
   color: #252432;
@@ -88,6 +102,7 @@ nav ul li {
 
 
 .it-img-pic {
+
   width: 403px;
   ;
   height: 328px;
@@ -95,6 +110,7 @@ nav ul li {
 }
 
 .action-part {
+
   display: flex;
   justify-content: space-between;
   padding-left: 160px;
@@ -107,32 +123,39 @@ nav ul li {
 /* common-shared-style */
 
 .secondary-bg {
+
   background-color: rgba(78, 71, 255, 0.11);
 
 }
 
 
 .common-blu {
+
   color: #4E47FF;
   font-weight: 800;
   font-size: 80px;
 }
 
 .para-title-bg {
+
   font-family: regular;
   font-size: 20px;
   color: rgba(0, 0, 0, 0.5);
 }
 
 /* main styles */
+
 main {
+
   max-width: 1140px;
   margin: 0 auto;
 }
 
 
 /* Joined Thousands of Productive Users */
+
 .product-user {
+
   border-radius: 24px;
   padding: 50px 80px;
   text-align: center;
@@ -140,18 +163,22 @@ main {
 }
 
 .user-item {
+
   display: flex;
   justify-content: space-between;
 
 }
 
 /* challenge section-> what our user say section */
+
 .user-content {
+
   padding: 80px 40px;
   text-align: center;
 }
 
 .user-content header h2 {
+
   text-align: center;
   font-weight: bold;
   font-size: 42px;
@@ -159,6 +186,7 @@ main {
 }
 
 .review-container {
+
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -166,6 +194,7 @@ main {
 }
 
 .review-card {
+
   background: #fff;
   width: 300px;
   padding: 20px;
@@ -175,22 +204,26 @@ main {
 }
 
 .review-card h3 {
+
   color: #1E1E1E;
   opacity: 100%;
 }
 
 .review-card p {
+
   font-weight: 300;
   font-size: 15px;
 }
 
 .reviewer-img img {
+
   width: 40px;
   height: 40px;
   border-radius: 50%;
 }
 
 .reviewer-img strong {
+
   width: 266.67px;
   height: 22px;
   font-weight: 300;
@@ -200,12 +233,14 @@ main {
 }
 
 .reviewer-img time {
+
   font-weight: 500;
   font-size: 14px;
   color: #B3B3B3;
 }
 
 .reviewer-img {
+
   display: flex;
   margin-top: 20px;
   align-items: center;
@@ -217,6 +252,7 @@ main {
 
 /* section-->Ready to focus better */
 .focus-info {
+
   max-width: 1140px;
   padding-left: 150px;
   padding-right: 150px;
@@ -227,6 +263,7 @@ main {
 }
 
 .focus-title {
+
   font-size: 50px;
   font-weight: bold;
   color: #000000;
@@ -243,10 +280,12 @@ main {
 }
 
 .btn-free-style {
+
   margin-bottom: 20px;
 }
 
 .focus-img-style {
+
   width: 840px;
   height: 364.77px;
   border-radius: 48px;
@@ -255,6 +294,7 @@ main {
 /* Lets get in Touch segment */
 
 .touch-contuct {
+
   max-width: 1140px;
   padding: 60px 60px;
   background-color: #f6f8fe;
@@ -264,6 +304,7 @@ main {
 }
 
 .container-box {
+
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -274,6 +315,7 @@ main {
 }
 
 .contuct-title h1 {
+
   font-weight: bold;
   font-size: 75px;
   margin: 125px 60px;
@@ -281,18 +323,15 @@ main {
 }
 
 .form-container {
+
   display: table-cell;
   flex: 1;
   display: flex;
   flex-direction: column;
-  /* gap: 19px; */
-  /* gap: px; */
-  /* margin: 20px 32px; */
-  /* padding-right: 80px; */
-  /* width: 50%; */
 }
 
 .form-container {
+
   margin-top: 15px;
   margin-bottom: 5px;
   font-weight: 500;
@@ -302,6 +341,7 @@ main {
 .form-container input[type="text"],
 [type="Email"],
 textarea {
+
   height: 70px;
   border-radius: 5px;
   background-color: #FFFFFF;
@@ -313,13 +353,54 @@ textarea {
 }
 
 .btn-touch {
+
   width: 300px;
   height: 43px;
 }
 
 /* footer segment */
+
 .footer-segment {
+
   width: 1440px;
   height: 428px;
   background-color: #FFFFFF;
+}
+
+.foot-web-name {
+
+  width: 531px;
+  height: 221px;
+  padding: 10px 575px 150px 575px;
+  text-align: center;
+  gap: 30px;
+}
+
+.web-title {
+
+  font-weight: 800;
+  font-size: 100px;
+  margin-bottom: 10px;
+  color: #4E47FF;
+}
+
+.web-sub-titel {
+
+  width: 531px;
+  height: 48px;
+  font-weight: 300;
+  color: #8987A1;
+}
+
+.foot-web-page-nav {
+
+  display: inline;
+}
+
+.foot-web-page-nav a {
+
+  text-align: center;
+  text-decoration: none;
+  color: #8987A1;
+  margin: 0 0.8rem;
 }
