@@ -18,6 +18,11 @@
   border: none;
   text-align: center;
 
+
+}
+
+button:hover {
+  background-color: violet;
 }
 
 .banner-content {
